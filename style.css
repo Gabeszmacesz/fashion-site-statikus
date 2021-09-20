@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: brown;
+    padding: 1.5rem;
+    color: white;
+    justify-content: center;
+}
+
+p {
+    padding: 0 0.5rem;
+}
+
+
+
+.oldalsav {
+    border-left: 3px solid white;
+}
+
+.div-menu {
+    background-color: white;
+}
+
+.nev {
+    color: darkblue;
+    font-size: 3rem;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    }
+
+li {
+    margin: 1rem;
+    font-size: 1.5rem;
+    }
+
+.grey {
+    color: lightgray
+}
+
+.elso-kep {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+
+.feher {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 18rem;
+}
+
+.elso {
+    font-size: 4rem;
+}
+
+.masodik {
+    font-size: 2rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.masodik-resz {
+    margin: 4rem;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+.kep-alatti {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.section {
+    width: 100%;
+    height: 80vh;
+    background-color: lightgray;
+}
+.section2 {
+    width: 100%;
+    height: 10vh;
+    background-color: lightgray;
+    display: block;
+    text-align: center;
+}
+
+.fototar {
+    display: flex;
+    align-items: center;
+    font-size: 7rem;
+    color: rgb(146, 143, 143);
+    border: 1px solid black;
+}
+
+.jelek {
+    font-size: 2rem;
+    padding: 4rem;
+    color: black;
+}
+
+
+.first {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.vonalak-div {
+    border: 3px solid black;
+    margin: 0 0.5rem;
+    width: 2.5rem;
+    background-color: gray;
+    height: 0.1rem;
+    position: relative;
+    bottom: 4rem;
+}
+
+.vonalak {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+.szurke {
+    border: 3px solid gray;
+}
+
+.power {
+    color: gray;
+    font-size: 3rem;
+    z-index: 0;
+    text-align: right;
+    background-color: lightgray;
+}
+
+.vonalak2 {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 1rem;
+}
+.terms {
+    background-color: white;
+    margin: 5rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.padding-terms {
+    padding-top: 1rem;
+}
+
+.social {
+    background-color: lightgray;
+    height: 12vh;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+}
+
+.social-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.c-div {
+    background-color: lightgray;
+}
+
+.kor {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 120px;
+    left: 50px;
+    box-shadow: 2px 4px 4px 2px gray;
+
+}
+
+.kor-tarolo {
+    display: flex;
+    justify-content: space-between;
+    height: 3vh;
+}
+.kor2 {
+    font-size: 4rem;
+    position: relative;
+    right: 50px;
+    bottom: 120px;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 2px 4px 4px 2px gray;
+}
+
+@media screen and (max-width: 768px) {
+    .masodik-resz2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social-img {
+        justify-content: center;
+    }
+    .kor{
+        left: 10px;
+    }
+    .kor2 {
+        right: 10px;
+    }
+    .power {
+        font-size: 2rem;
+    }
+    .fototar {
+        font-size: 4rem;
+    }
+}
+
+
+
+
